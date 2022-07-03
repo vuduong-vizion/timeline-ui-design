@@ -1,0 +1,42 @@
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body {
+    line-height: 1;
+    font-family: $font;
+    // color: $text-color;
+    font-weight: 400;
+    background-color: white;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-family: $font;
+    line-height: 1;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+    white-space: nowrap;
+    &--white {
+        background-color: #fff;
+        color: #000000;
+        font-weight: 500;
+        border: 2px solid #000;
+    }
+    &--dark {
+        font-weight: 500;
+        color: #fff;
+        background-color: #000;
+        border: 1px solid #000;
+    }
+}
