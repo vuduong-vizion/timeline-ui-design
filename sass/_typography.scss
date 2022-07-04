@@ -13,6 +13,7 @@ h6 {
     color: $heading-color;
     font-size: 64px;
     line-height: calc(80 / 65);
+    margin-top: 0;
     margin-bottom: 24px;
 }
 
@@ -67,5 +68,5 @@ h6 {
     background-repeat: no-repeat;
 }
 
-
-.box-founder {}
+.box-founder {
+}

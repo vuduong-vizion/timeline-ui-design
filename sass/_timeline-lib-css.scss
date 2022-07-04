@@ -115,27 +115,22 @@
 
 .y1 {
     top: 75px;
-
 }
 
 .y2 {
     top: 1050px;
-
 }
 
 .y3 {
     top: 2085px;
-
 }
 
 .y4 {
     top: 3495px;
-
 }
 
 .y5 {
     top: 4690px;
-
 }
 
 .y6 {
@@ -153,7 +148,6 @@
 .y9 {
     top: 9535px;
 }
-
 
 .b1,
 .b2,
@@ -178,12 +172,10 @@
 
 .b3 {
     top: 2085px;
-
 }
 
 .b4 {
     top: 3495px;
-
 }
 
 .b5 {
@@ -223,17 +215,38 @@
     margin-top: 10px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1279px) {
+    .box {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
     .ligne {
         position: relative;
-        left: 200px;
+        left: -365px;
     }
 
     .rond {
-        left: calc(50% + 200px);
+        left: calc(50% + -365px);
     }
 
     .box {
-        left: calc(50% - 50px);
+        left: calc(50% - 140px);
+    }
+}
+
+@media screen and (max-width: 911px) {
+    .ligne {
+        left: -330px;
+    }
+    .rond {
+        left: calc(50% + -330px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .scroll-vertical {
+        display: none;
     }
 }
