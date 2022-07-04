@@ -2,11 +2,13 @@
     max-width: 1920px;
     margin: 0 auto;
 }
+
 .container {
     max-width: 1310px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 body {
     line-height: 1;
     font-family: $font;
@@ -27,16 +29,48 @@ body {
     outline: none;
     text-align: center;
     white-space: nowrap;
+
     &--white {
         background-color: #fff;
         color: #000000;
         font-weight: 500;
         border: 2px solid #000;
     }
+
     &--dark {
         font-weight: 500;
         color: #fff;
         background-color: #000;
         border: 1px solid #000;
+    }
+}
+
+.box-founder {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0 30px;
+    border: 1px solid #878685;
+    ;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.box-logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+}
+
+.box-desc {
+    text-align: left;
+
+    p {
+        font-size: 14px;
+        font-weight: 300;
+        color: #C7C6C3;
+        line-height: calc(25/14);
+        margin-top: 0;
+        margin-bottom: 20px;
     }
 }
