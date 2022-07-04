@@ -3,21 +3,21 @@
     padding: 5px;
     background-color: transparent;
     width: 100%;
-    height: 1050px;
+    height: 1040px;
     overflow: auto;
     text-align: justify;
+    // border-radius: 15px;
 }
 
 .box-timeline {
     width: 100%;
-    height: 4000px;
+    height: 11575px;
     position: relative;
     padding: 100px 0 250px 0;
-    margin-bottom: 100px;
 }
 
 .ligne {
-    height: 4000px;
+    height: 10850px;
     width: 8px;
     margin: 0 auto;
     background: #333;
@@ -64,58 +64,146 @@
 }
 
 .r2 {
-    top: 1000px;
+    top: 1080px;
 }
 
 .r3 {
-    top: 1960px;
+    top: 2115px;
 }
 
-// .r4 {
-//     top: 1000px;
-// }
+.r4 {
+    top: 3525px;
+}
 
-// .r5 {
-//     top: 1300px;
-// }
+.r5 {
+    top: 4720px;
+}
 
+.r6 {
+    top: 6210px;
+}
 
+.r7 {
+    top: 7410px;
+}
+
+.r8 {
+    top: 8380px;
+}
+
+.r9 {
+    top: 9565px;
+}
+
+.r10 {
+    top: 10920px;
+}
 
 /* YEAR  */
-.y1 {
-    top: 75px;
+.y1,
+.y2,
+.y3,
+.y4,
+.y5,
+.y6,
+.y7,
+.y8,
+.y9 {
     right: calc(50% + 270px);
     transform: translate(170px, 0);
+}
+
+.y1 {
+    top: 75px;
+
 }
 
 .y2 {
-    top: 970px;
-    right: calc(50% + 270px);
-    transform: translate(170px, 0);
+    top: 1050px;
+
 }
 
 .y3 {
-    top: 1930px;
-    right: calc(50% + 270px);
-    transform: translate(170px, 0);
+    top: 2085px;
+
+}
+
+.y4 {
+    top: 3495px;
+
+}
+
+.y5 {
+    top: 4690px;
+
+}
+
+.y6 {
+    top: 6180px;
+}
+
+.y7 {
+    top: 7380px;
+}
+
+.y8 {
+    top: 8350px;
+}
+
+.y9 {
+    top: 9535px;
+}
+
+
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9 {
+    right: calc(50% - 270px);
+    transform: translate(70px, 0%);
 }
 
 .b1 {
     top: 80px;
-    right: calc(50% - 270px);
-    transform: translate(70px, -10px);
 }
 
 .b2 {
-    top: 970px;
-    right: calc(50% - 270px);
-    transform: translate(70px, 0%);
+    top: 1050px;
 }
 
 .b3 {
-    top: 1930px;
-    right: calc(50% - 270px);
-    transform: translate(70px, 0%);
+    top: 2085px;
+
+}
+
+.b4 {
+    top: 3495px;
+
+}
+
+.b5 {
+    top: 4690px;
+}
+
+.b6 {
+    top: 6180px;
+}
+
+.b7 {
+    top: 7380px;
+}
+
+.b8 {
+    top: 8365px;
+}
+
+.b9 {
+    top: 9535px;
 }
 
 // .box p {

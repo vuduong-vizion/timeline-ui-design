@@ -1,6 +1,10 @@
+.test {
+    border-radius: 15px;
+}
+
 .timeline {
     background-color: #d5d2ce;
-    border-radius: 15px;
+    // border-radius: 15px;
 
     &-container {
         margin: 0 35px;
@@ -100,8 +104,115 @@
         margin-left: 5px;
     }
 
-    &-team--img {
+    &-img--space {
         margin-bottom: 30px;
+    }
+
+    &-relight--box {
+        text-align: left;
+        padding: 20px;
+        background-color: #090909;
+        margin-bottom: 50px;
+        border-radius: 15px;
+
+        p {
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 20px;
+            font-weight: 300;
+
+            &:nth-child(2) {
+                padding: 10px;
+            }
+
+            &:nth-child(3) {
+                color: #878685;
+                margin-bottom: 10px;
+            }
+        }
+
+    }
+
+    &-relume-lauches {
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    &-laughes-text {
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        display: inline-block;
+        padding: 5px 20px;
+        border-radius: 15px;
+        background-color: #181A1B;
+        margin-bottom: 0;
+    }
+
+    &-bottom {
+        padding-top: 120px;
+        text-align: center;
+        max-width: 770px;
+        margin: 0 auto;
+
+        &--secondtext {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
+            line-height: calc(50/24);
+        }
+
+        &--thirdtext {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+    }
+
+    &-footer {
+        height: 645px;
+        // max-width: 770px;
+
+        background-color: #363A3C;
+        // background-image: url(./../images/timeline-footer-bg.svg);
+        background-image: url(./../images/60de510d7335a4d912f1bb9b_Gaussian\ Blur\ -\ Brighter.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &--secondtext {
+            color: #fff;
+            font-size: 32px;
+            font-weight: 300;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
+            line-height: calc(50/24);
+        }
+
+        &--thirdtext {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 40px;
+            line-height: calc(50/24);
+        }
+    }
+
+    &-cover-footer {
+        padding-top: 150px;
+        height: 100%;
+        width: 100%;
+        background-image: url(./../images/timeline-footer-bg.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &-footer--content {
+        max-width: 770px;
+        margin: 0 auto;
+        text-align: center;
     }
 
 }

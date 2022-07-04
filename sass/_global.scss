@@ -10,11 +10,13 @@
 }
 
 body {
+    position: relative;
     line-height: 1;
     font-family: $font;
     // color: $text-color;
     font-weight: 400;
     background-color: white;
+    overflow: scroll;
 }
 
 .button {
@@ -42,6 +44,32 @@ body {
         color: #fff;
         background-color: #000;
         border: 1px solid #000;
+    }
+
+    &--inverted {
+        padding: 14px 32px;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #181A1B;
+        border: 1 solid #303436;
+
+    }
+
+    &-footerleft {
+        padding: 12px 20px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #000;
+        border: 1px solid #897F70;
+        margin-left: 20px;
+    }
+
+    &-footerright {
+        padding: 12px 20px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #303436;
+        border: 1px solid #897F70;
     }
 }
 
@@ -73,4 +101,8 @@ body {
         margin-top: 0;
         margin-bottom: 20px;
     }
+}
+
+.timeline-img--space {
+    margin-bottom: 30px;
 }
